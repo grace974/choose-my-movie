@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Choose My Movie — Stop scrolling. Start watching. Aesthetic movie tracking, watchlists, and mood-based movie picking.">
+  <meta name="theme-color" content="#09090d">
+
+  <title>Choose My Movie — Stop Scrolling. Start Watching.</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"rel="stylesheet">
+  <script src="choose.js" defer></script>
+  <link rel="stylesheet" href="choose.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       NAVIGATION
+       ===================================================== -->
+
+  <header class="navbar">
+
+    <a href="#" class="logo" aria-label="Choose My Movie home">
+      <span class="logo-mark">▶</span>
+      <span>Choose My Movie</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#themes">Themes</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <a href="#pricing" class="nav-button">
+      Get Access
+    </a>
+
+    <button
+      class="mobile-menu-button"
+      id="mobileMenuButton"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false">
+      ☰
+    </button>
+
+  </header>
+
+
+  <!-- =====================================================
+       MOBILE NAVIGATION
+       ===================================================== -->
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <a href="#features">Features</a>
+
+    <a href="#themes">Themes</a>
+
+    <a href="#how-it-works">How It Works</a>
+
+    <a href="#pricing">Pricing</a>
+
+    <a href="#faq">FAQ</a>
+
+    <a href="#pricing" class="mobile-cta">
+      Get Lifetime Access
+    </a>
+
+  </div>
+
+
+  <main>
+
+    <!-- ===================================================
+         HERO
+         =================================================== -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-background"></div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          YOUR NEXT MOVIE IS WAITING
+        </div>
+
+        <h1>
+          Stop scrolling.<br>
+          <span>Start watching.</span>
+        </h1>
+
+        <p class="hero-description">
+          Choose My Movie makes deciding what to watch ridiculously simple.
+          Pick a mood, choose your filters, and get back to the good part.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#pricing" class="primary-button">
+            Get Lifetime Access
+            <span>→</span>
+          </a>
+
+          <a href="#features" class="secondary-button">
+            See how it works
+          </a>
+
+        </div>
+
+        <div class="hero-note">
+          <span>✓</span>
+          One payment · $7.99 forever
+        </div>
+
+      </div>
+
+
+      <!-- Floating movie preview -->
+
+      <div class="hero-card hero-card-one">
+
+        <div class="movie-poster poster-one">
+          <span>MOOD</span>
+        </div>
+
+        <div class="movie-card-info">
+
+          <strong>Tonight's Pick</strong>
+
+          <span>
+            Mind-Bending · 1h 56m
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- Floating rating -->
+
+      <div class="hero-card hero-card-two">
+
+        <span class="star">★</span>
+
+        <strong>4.8</strong>
+
+        <span>Your rating</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         SOCIAL PROOF
+         =================================================== -->
+
+    <section class="proof-strip" aria-label="Product highlights">
+
+      <div>
+        <strong>1 decision</strong>
+        <span>instead of endless scrolling</span>
+      </div>
+
+      <div>
+        <strong>8 themes</strong>
+        <span>to make it yours</span>
+      </div>
+
+      <div>
+        <strong>$7.99</strong>
+        <span>once. No subscription.</span>
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         PROBLEM
+         =================================================== -->
+
+    <section class="problem section">
+
+      <div class="section-label">
+        THE PROBLEM
+      </div>
+
+      <h2>
+        You've spent 20 minutes<br>
+        <em>choosing</em> a movie.
+      </h2>
+
+      <p>
+        You've opened Netflix. Then Hulu. Then Max.
+        Then you've asked your friends. Somehow, it's midnight
+        and you're still scrolling.
+      </p>
+
+
+      <div class="problem-grid">
+
+        <article class="problem-card">
+
+          <span>01</span>
+
+          <h3>
+            Too many choices
+          </h3>
+
+          <p>
+            Thousands of movies. Zero idea what you actually want.
+          </p>
+
+        </article>
+
+
+        <article class="problem-card">
+
+          <span>02</span>
+
+          <h3>
+            Decision fatigue
+          </h3>
+
+          <p>
+            You don't need another recommendation algorithm.
+            You need a decision.
+          </p>
+
+        </article>
+
+
+        <article class="problem-card accent-card">
+
+          <span>03</span>
+
+          <h3>
+            Just pick something
+          </h3>
+
+          <p>
+            Tell us your mood. We'll take it from there.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         FEATURES
+         =================================================== -->
+
+    <section class="features section" id="features">
+
+      <div class="section-heading">
+
+        <div>
+
+          <div class="section-label">
+            THE APP
+          </div>
+
+          <h2>
+            Everything you need.<br>
+            <em>Nothing you don't.</em>
+          </h2>
+
+        </div>
+
+        <p>
+          Built for people who love movies but hate deciding
+          what to watch.
+        </p>
+
+      </div>
+
+
+      <div class="feature-grid">
+
+
+        <!-- FEATURE 1 -->
+
+        <article class="feature-card large-feature">
+
+          <div class="feature-number">
+            01
+          </div>
+
+          <div class="feature-icon">
+            ✦
+          </div>
+
+          <h3>
+            Random Mood Picker
+          </h3>
+
+          <p>
+            Pick your mood, runtime, and streaming platform.
+            We'll find your next movie.
+          </p>
+
+
+          <div class="picker-demo">
+
+            <div class="picker-row">
+
+              <span>
+                I'm feeling
+              </span>
+
+              <strong>
+                Mind-Bending
+              </strong>
+
+            </div>
+
+
+            <div class="picker-row">
+
+              <span>
+                Runtime
+              </span>
+
+              <strong>
+                Under 2 hours
+              </strong>
+
+            </div>
+
+
+            <div class="picker-row">
+
+              <span>
+                Platform
+              </span>
+
+              <strong>
+                Any platform
+              </strong>
+
+            </div>
+
+
+            <button
+              class="demo-button"
+              id="demoPicker"
+              type="button"
+            >
+              Pick My Movie
+              <span>✦</span>
+            </button>
+
+
+            <div
+              class="picker-result"
+              id="pickerResult"
+              aria-live="polite"
+            >
+              Your movie is waiting...
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- FEATURE 2 -->
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            02
+          </div>
+
+          <div class="feature-icon">
+            ♡
+          </div>
+
+          <h3>
+            Movie Log
+          </h3>
+
+          <p>
+            Keep track of everything you've watched and everything
+            you want to watch.
+          </p>
+
+
+          <div class="mini-list">
+
+            <div>
+
+              <span class="mini-poster poster-two"></span>
+
+              <div>
+                <strong>Want to Watch</strong>
+                <small>12 movies</small>
+              </div>
+
+              <span>→</span>
+
+            </div>
+
+
+            <div>
+
+              <span class="mini-poster poster-three"></span>
+
+              <div>
+                <strong>Watched</strong>
+                <small>47 movies</small>
+              </div>
+
+              <span>→</span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- FEATURE 3 -->
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            03
+          </div>
+
+          <div class="feature-icon">
+            ★
+          </div>
+
+          <h3>
+            Rate & Review
+          </h3>
+
+          <p>
+            Give movies 1–5 stars and leave notes so you remember
+            exactly what you thought.
+          </p>
+
+
+          <div class="rating-demo">
+
+            <div class="stars">
+              ★★★★★
+            </div>
+
+            <span>
+              5.0
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <!-- FEATURE 4 -->
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            04
+          </div>
+
+          <div class="feature-icon">
+            ◌
+          </div>
+
+          <h3>
+            Your Stats
+          </h3>
+
+          <p>
+            See your movie habits at a glance.
+          </p>
+
+
+          <div class="stats-demo">
+
+            <div>
+              <strong>47</strong>
+              <span>Films watched</span>
+            </div>
+
+            <div>
+              <strong>91h</strong>
+              <span>Watch time</span>
+            </div>
+
+            <div>
+              <strong>4.2</strong>
+              <span>Avg. rating</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         THEMES
+         =================================================== -->
+
+    <section class="themes section" id="themes">
+
+      <div class="section-heading centered">
+
+        <div class="section-label">
+          MAKE IT YOURS
+        </div>
+
+        <h2>
+          Your movie tracker.<br>
+          <em>Your aesthetic.</em>
+        </h2>
+
+        <p>
+          Switch the entire vibe with one tap.
+        </p>
+
+      </div>
+
+
+      <div class="theme-grid">
+
+
+        <button
+          class="theme-card theme-dark active"
+          data-theme="dark"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Dark Cinema
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-pastel"
+          data-theme="pastel"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Dorm Pastel
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-matcha"
+          data-theme="matcha"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Cozy Matcha
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-y2k"
+          data-theme="y2k"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Y2K Retro
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-sunset"
+          data-theme="sunset"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Sunset Drive
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-espresso"
+          data-theme="espresso"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Midnight Espresso
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-cyber"
+          data-theme="cyber"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Cyber Matrix
+          </strong>
+
+        </button>
+
+
+        <button
+          class="theme-card theme-cloud"
+          data-theme="cloud"
+          type="button"
+        >
+
+          <span class="theme-preview">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+          <strong>
+            Blue Cloud
+          </strong>
+
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         HOW IT WORKS
+         =================================================== -->
+
+    <section class="how-it-works section" id="how-it-works">
+
+      <div class="section-label">
+        HOW IT WORKS
+      </div>
+
+      <h2>
+        From “what should we watch?”<br>
+        to <em>movie night.</em>
+      </h2>
+
+
+      <div class="steps">
+
+
+        <div class="step">
+
+          <div class="step-number">
+            1
+          </div>
+
+          <h3>
+            Get access
+          </h3>
+
+          <p>
+            Pay once. $7.99 gets you lifetime access.
+          </p>
+
+        </div>
+
+
+        <div class="step-line"></div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            2
+          </div>
+
+          <h3>
+            Pick your mood
+          </h3>
+
+          <p>
+            Choose a mood, runtime, and platform.
+          </p>
+
+        </div>
+
+
+        <div class="step-line"></div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            3
+          </div>
+
+          <h3>
+            Press play
+          </h3>
+
+          <p>
+            Get a movie and start watching.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         PRICING
+         =================================================== -->
+
+    <section class="pricing section" id="pricing">
+
+      <div class="pricing-card">
+
+
+        <div class="pricing-copy">
+
+          <div class="section-label">
+            LIFETIME ACCESS
+          </div>
+
+          <h2>
+            One payment.<br>
+            <em>Movie nights forever.</em>
+          </h2>
+
+          <p>
+            No subscription. No monthly fees. No “free trial”
+            that suddenly charges you later.
+          </p>
+
+
+          <ul>
+
+            <li>
+              ✓ Unlimited movie tracking
+            </li>
+
+            <li>
+              ✓ Mood-based movie picker
+            </li>
+
+            <li>
+              ✓ Watchlist & history
+            </li>
+
+            <li>
+              ✓ Ratings & personal notes
+            </li>
+
+            <li>
+              ✓ Viewing statistics
+            </li>
+
+            <li>
+              ✓ All 8 visual themes
+            </li>
+
+            <li>
+              ✓ Access across your devices
+            </li>
+
+            <li>
+              ✓ JSON data export
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="price-box">
+
+          <span class="price-label">
+            LIFETIME
+          </span>
+
+          <div class="price">
+            <span>$</span>7<span class="cents">.99</span>
+          </div>
+
+          <p>
+            One-time payment
+          </p>
+
+
+          <!--
+            IMPORTANT:
+
+            Replace the placeholder href below with your
+            real Stripe Checkout URL once you create it.
+
+            For production, a server-side Stripe Checkout
+            session is preferable.
+          -->
+
+          <a
+            href="https://buy.stripe.com/"
+            class="checkout-button"
+            id="checkoutButton"
+          >
+            Get Choose My Movie
+            <span>→</span>
+          </a>
+
+          <small>
+            Secure checkout · Digital access
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         FAQ
+         =================================================== -->
+
+    <section class="faq section" id="faq">
+
+      <div class="section-heading centered">
+
+        <div class="section-label">
+          QUESTIONS
+        </div>
+
+        <h2>
+          Good questions.<br>
+          <em>We've got answers.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="faq-list">
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              Is this a subscription?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Nope. Choose My Movie costs $7.99 one time.
+              Your account includes lifetime access with no monthly
+              or recurring subscription fees.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              What happens after I pay?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              After your payment is confirmed, your account is
+              authorized and you'll receive instructions for signing
+              into the app.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              Can I use it on my phone?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Yes. Choose My Movie is designed as a progressive web
+              app, so it works across phones, tablets, and desktop
+              devices.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              Can I delete my account?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Yes. Your account settings include an account deletion
+              option. You can also request assistance at
+              support@choosemymovie.org.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              Does Choose My Movie provide the movies?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Choose My Movie is a discovery and tracking tool.
+              Streaming availability depends on the services you
+              subscribe to and the availability of individual titles.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>
+              Can I access my account on multiple devices?
+            </span>
+
+            <span>
+              +
+            </span>
+
+          </button>
+
+
+          <div class="faq-answer">
+
+            <p>
+              Yes. Your account data is stored in the cloud so your
+              watchlist, movie history, ratings, notes, and statistics
+              can be available across supported devices.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         FINAL CTA
+         =================================================== -->
+
+    <section class="final-cta">
+
+      <div class="final-glow"></div>
+
+      <div class="section-label">
+        MOVIE NIGHT STARTS HERE
+      </div>
+
+      <h2>
+        Your next favorite movie<br>
+        is <em>one click away.</em>
+      </h2>
+
+
+      <a href="#pricing" class="primary-button large">
+        Get Lifetime Access — $7.99
+        <span>→</span>
+      </a>
+
+      <p>
+        No subscription. No monthly fees. Just movies.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer class="footer">
+
+    <div class="footer-main">
+
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+
+          <span class="logo-mark">
+            ▶
+          </span>
+
+          <span>
+            Choose My Movie
+          </span>
+
+        </a>
+
+
+        <p>
+          Stop scrolling.<br>
+          Start watching.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+
+        <div>
+
+          <h4>
+            Product
+          </h4>
+
+          <a href="#features">
+            Features
+          </a>
+
+          <a href="#themes">
+            Themes
+          </a>
+
+          <a href="#pricing">
+            Pricing
+          </a>
+
+          <a href="#faq">
+            FAQ
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            Legal
+          </h4>
+
+          <a href="privacy.html">
+            Privacy Policy
+          </a>
+
+          <a href="terms.html">
+            Terms of Service
+          </a>
+
+          <a href="refunds.html">
+            Refund Policy
+          </a>
+
+          <a href="delete-account.html">
+            Delete Account
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            Contact
+          </h4>
+
+          <a href="mailto:support@choosemymovie.org">
+            support@choosemymovie.org
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Choose My Movie. All rights reserved.
+      </p>
+
+
+      <p class="disclaimer">
+        Choose My Movie is not affiliated with, endorsed by,
+        or sponsored by Netflix, Hulu, Max, Disney+, Prime Video,
+        Apple TV, or other streaming services. All trademarks belong
+        to their respective owners.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  
+ 
+
+</body>
+</html>

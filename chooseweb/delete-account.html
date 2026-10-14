@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delete Account | Choose My Movie</title>
+    <meta name="description"content="Learn how to request deletion of your Choose My Movie account and associated personal information.">
+
+    <link rel="stylesheet" href="choose.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="choose.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="delete-account-page">
+        <div class="delete-account-container">
+
+            <nav class="delete-account-nav">
+                <a href="choose.html">
+                    &larr; Back to Choose My Movie
+                </a>
+            </nav>
+
+            <header class="delete-account-header">
+                <h1>Delete Your Account</h1>
+                <p>
+                    We're sorry to see you go. If you no longer want
+                    to use Choose My Movie, you can request deletion
+                    of your account and associated personal information
+                    using the instructions below.
+                </p>
+            </header>
+
+            <section class="delete-account-section">
+                <h2>How to Request Account Deletion</h2>
+                <p>
+                    To request deletion of your Choose My Movie account,
+                    follow these steps:
+                </p>
+                <ol>
+                    <li>
+                        Open your email application.
+                    </li>
+
+                    <li>
+                        Send an email to
+                        <strong>support@choosemymovie.org</strong>.
+                    </li>
+
+                    <li>
+                        Use "Account Deletion Request" as the subject.
+                    </li>
+
+                    <li>
+                        Include the email address associated with
+                        your account so we can identify it.
+                    </li>
+                </ol>
+
+                <a class="delete-account-button"href="mailto:support@choosemymovie.org?subject=Account%20Deletion%20Request&body=Hello%20Choose%20My%20Movie%20Support%2C%0A%0AI%20would%20like%20to%20request%20deletion%20of%20my%20account%20and%20associated%20personal%20information.%0A%0AEmail%20associated%20with%20my%20account%3A%20%0A%0AThank%20you.">
+                    Request Account Deletion
+                </a>
+            </section>
+
+            <section class="delete-account-section">
+                <h2>What Happens After Your Request?</h2>
+
+                <p>
+                    Our support team will review your request and may
+                    contact you to verify account ownership before
+                    proceeding.
+                </p>
+
+                <p>
+                    We will provide information about the next steps
+                    and any applicable processing timeframe after
+                    reviewing your request.
+                </p>
+            </section>
+
+            <section class="delete-account-section delete-account-warning">
+                <h2>Important Information</h2>
+
+                <ul>
+                    <li>
+                        Account deletion may be permanent and could
+                        remove account-related information.
+                    </li>
+
+                    <li>
+                        Some information may need to be retained where
+                        required by law or for legitimate legal purposes.
+                    </li>
+
+                    <li>
+                        Do not include your password or other sensitive
+                        login credentials in your deletion request.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="delete-account-section">
+                <h2>Need Help?</h2>
+
+                <p>
+                    If you have questions about account deletion or
+                    need assistance, contact our support team.
+                </p>
+
+                <p>
+                    Email:
+                    <a
+                        href="mailto:support@choosemymovie.org"
+                        style="color: #ff8982;"
+                    >
+                        support@choosemymovie.org
+                    </a>
+                </p>
+            </section>
+
+            <footer class="delete-account-footer">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Choose My Movie. All rights reserved.
+                </p>
+
+                <p>
+                    <a href="index.html">Home</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="support.html">Support</a>
+                </p>
+            </footer>
+
+        </div>
+    </main>
+
+    <script>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
+</body>
+</html>
