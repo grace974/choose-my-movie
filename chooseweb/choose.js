@@ -535,4 +535,3 @@ console.log(
 // Always open the website in Dark Cinema.
 applyTheme("dark");
 
-   
