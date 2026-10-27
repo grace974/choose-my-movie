@@ -1,17 +1,7 @@
-/*Here is the complete `styles.css` to pair with the HTML above.
-
-:::writing{variant="document" id="74106" title="Choose My Movie — styles.css"}
-
-```
-/* =========================================================
-   CHOOSE MY MOVIE
-   styles.css
-   ========================================================= */
-
-/* =========================================================
-   VARIABLES
-   ========================================================= */
-
+img{
+  width: 100px;
+  height: 75px;
+}
 :root {
   --bg: #09090d;
   --bg-soft: #101017;
